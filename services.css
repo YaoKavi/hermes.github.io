@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;  /* Modern font (replace with your choice) */
+    color: #333;
+  }
+  
+  .header {
+    display: flex; /* Center content vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Adjust header height as needed */
+    background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);  /* Light gradient background */
+  }
+  
+  .header h1 {
+    font-size: 10rem;  /* Adjust header text size */
+    color: #fff;  /* White text for better contrast */
+  }
+  
+  .services {
+    padding: 50px;
+    background: #fff;  /* White background for services section */
+  }
+  
+  .services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .services p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .service-card {
+    width: calc(15% - 15px);  /* Adjust card width and spacing */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background: linear-gradient(to bottom right, #f8f8f8, #f2f2f2); /* Light card background gradient */
+  }
+  
+  .service-card h3,
+  .service-card p {
+    margin-bottom: 10px;
+  }
+  
+  .service-card i {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10
+}    

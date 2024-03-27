@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(black,white);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .gradient-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background: linear-gradient(to right, #ff8a00, #ffaa00);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .gradient-button:hover {
+    background: linear-gradient(to right, #ffaa00, #ff8a00);
+  }

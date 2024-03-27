@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;  /* Modern font (replace with your choice) */
+    color: #333;
+  }
+  
+  .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #fff, #f5f5f5);  /* Light gradient background */
+  }
+  
+  .about-content {
+    padding: 50px;
+    flex: 2;  /* Adjust content area width as needed */
+  }
+  
+  .about-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    line-height: 1.5; /* Adjust line spacing for readability */
+    margin-bottom: 15px;
+  }
+  
+  .about-image {
+    flex: 1; /* Adjust image area width as needed */
+  }
+  
+  /* Optional: Media Queries for Responsive Design */
+  
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+    }
+    .about-content,
+    .about-image {
+      flex: 1;  /* Make content and image full width on smaller screens */
+    }
+  }
+  
